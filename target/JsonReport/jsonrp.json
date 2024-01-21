@@ -1,0 +1,704 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 356724700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "Land on the Login of Webpage",
+            "match": {
+              "location": "stepDefination.stepDefination.land_on_the_Login_of_Webpage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-08T07:16:55.978Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1997782500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.BroswerSetup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Page",
+        "description": "",
+        "id": "rahul-shetty-website-testing;login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 125151500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114001100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Enter the rahul and rahulshettyacademy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahul",
+                  "offset": 10
+                },
+                {
+                  "val": "rahulshettyacademy",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.stepDefination.enter_the_rahul_and_rahulshettyacademy(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101999800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "click on the checkboxes",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_the_checkboxes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "click on the Sign In button",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_the_Sign_In_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4998800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "Navigated to Home Page",
+            "match": {
+              "location": "stepDefination.stepDefination.navigated_to_Home_Page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1040095400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "click on Logout",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_Logout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 383599800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "Land on the Login of Webpage",
+            "match": {
+              "location": "stepDefination.stepDefination.land_on_the_Login_of_Webpage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-08T07:16:59.816Z",
+        "before": [
+          {
+            "result": {
+              "duration": 842595800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.BroswerSetup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login Page",
+        "description": "",
+        "id": "rahul-shetty-website-testing;login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 98331600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 93682400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Enter the harshal and rahulshettyacademy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harshal",
+                  "offset": 10
+                },
+                {
+                  "val": "rahulshettyacademy",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination.stepDefination.enter_the_rahul_and_rahulshettyacademy(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63007300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "click on the checkboxes",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_the_checkboxes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31422200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "click on the Sign In button",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_the_Sign_In_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4001900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "Navigated to Home Page",
+            "match": {
+              "location": "stepDefination.stepDefination.navigated_to_Home_Page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1074190100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "click on Logout",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_Logout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 629918900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "Land on the Login of Webpage",
+            "match": {
+              "location": "stepDefination.stepDefination.land_on_the_Login_of_Webpage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-08T07:17:02.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 841614100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.BroswerSetup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Visit us Page",
+        "description": "",
+        "id": "rahul-shetty-website-testing;visit-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 146010400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66000100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "click on the visit us page",
+            "match": {
+              "location": "stepDefination.stepDefination.click_on_the_visit_us_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 981164200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.BeforeStep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "Get the title of Visit us Page",
+            "match": {
+              "location": "stepDefination.stepDefination.get_the_title_of_Visit_us_Page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.stepDefination.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Only"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-01-08T07:17:05.074Z",
+        "line": 30,
+        "name": "Dummy 1",
+        "description": "Given\nWhen\nThen",
+        "id": "rahul-shetty-website-testing;dummy-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-01-08T07:17:05.076Z",
+        "line": 36,
+        "name": "Dummy 2",
+        "description": "Given\nWhen\nThen",
+        "id": "rahul-shetty-website-testing;dummy-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Rahul Shetty Website Testing",
+    "description": "",
+    "id": "rahul-shetty-website-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Functionality.feature",
+    "tags": []
+  }
+]
