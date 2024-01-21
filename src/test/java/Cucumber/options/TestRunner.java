@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/Feature",
-		glue= {"stepDefination"}
-	//	tags= {"@Smoke"}
+		glue= {"stepDefination"},
+		tags= {"@Smoke"}
 	//	tags= {"@Smoke and @Regression"}
 	//	tags= {"@Smoke or @Regression"}
 	//	tags= {"@Smoke","@Regression"},
@@ -21,5 +21,6 @@ import io.cucumber.junit.CucumberOptions;
 		
 		)
 public class TestRunner {
+	
 
 }
