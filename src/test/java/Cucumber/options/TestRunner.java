@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/Feature",
-		glue= {"stepDefination"}
+		glue= {"stepDefination"},
+		tags= {"@MySmoke"}
 	//	tags= {"@Smoke"}
 	//	tags= {"@Smoke and @Regression"}
 	//	tags= {"@Smoke or @Regression"}
